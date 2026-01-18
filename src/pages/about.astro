@@ -1,0 +1,76 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MediaLogos from '../components/MediaLogos.astro';
+---
+
+<Layout
+  title="About"
+  description="Michael Bryant is a lawyer, former cabinet minister, and organizational leader with 25+ years in public, regulatory, and NGO leadership."
+  currentPath="/about"
+>
+  <!-- Hero Section with Bio -->
+  <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl sm:text-5xl font-serif font-bold text-navy mb-12 text-center">About</h1>
+
+      <div class="grid md:grid-cols-3 gap-12 items-start">
+        <!-- Photo placeholder on right -->
+        <div class="md:order-2 md:col-span-1">
+          <div class="bg-gray-200 rounded-lg aspect-[3/4] flex items-center justify-center border border-gray-300">
+            <span class="text-gray-500 text-sm">Headshot placeholder</span>
+          </div>
+        </div>
+
+        <!-- Bio text on left -->
+        <div class="md:order-1 md:col-span-2 space-y-6 text-lg text-gray-700 leading-relaxed">
+          <p>
+            Michael Bryant is a lawyer, former cabinet minister, and organizational leader with 25+ years in public, regulatory, and NGO leadership.
+          </p>
+
+          <p>
+            As Attorney General of Ontario, he oversaw the justice system and led major legislative reforms. As Minister of Indigenous Affairs, he advanced reconciliation efforts including the Ipperwash settlement. As CEO of Legal Aid BC, he led a $100M+ organization through digital transformation and operational restructuring.
+          </p>
+
+          <p>
+            He has served as Executive Director and General Counsel of the Canadian Civil Liberties Association, chair of the Public Accountants Council, and director of organizations focused on youth mental health, prisoners' rights, and access to justice.
+          </p>
+
+          <p>
+            His academic appointments include Harvard Law School (Fulbright Fellow), King's College London, University of Toronto, and Osgoode Hall Law School.
+          </p>
+
+          <p>
+            He is the author of <em>28 Seconds</em>, a #1 Globe and Mail bestseller, and co-author of <em>Public Law</em> (Carswell). His scholarship has appeared in the Supreme Court Law Review, UBC Law Review, and Osgoode Hall Law Journal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recognition Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-serif font-semibold text-navy mb-8 text-center">Recognition</h2>
+      <div class="space-y-6">
+        <div class="bg-gray-50 border-l-4 border-gold p-6">
+          <p class="text-lg text-gray-700">
+            Top 25 Most Influential in Canada (Canadian Lawyer)
+          </p>
+        </div>
+        <div class="bg-gray-50 border-l-4 border-gold p-6">
+          <p class="text-lg text-gray-700">
+            35th Attorney General of Ontario
+          </p>
+        </div>
+        <div class="bg-gray-50 border-l-4 border-gold p-6">
+          <p class="text-lg text-gray-700 italic">
+            "Once wielded the power of the state, now he challenges it." — Globe and Mail
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Logos -->
+  <MediaLogos />
+</Layout>

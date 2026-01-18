@@ -1,0 +1,118 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MediaLogos from '../components/MediaLogos.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+---
+
+<Layout
+  title="Home"
+  description="AI Strategy for Organizations That Can't Afford to Get It Wrong. I help small businesses, charities, and professional firms figure out AI—what to use, how to use it safely, and how to actually get value from it."
+  currentPath="/"
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-b from-gray-50 to-white py-20 sm:py-28">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-navy mb-6 leading-tight">
+        AI Strategy for Organizations That Can't Afford to Get It Wrong
+      </h1>
+      <p class="text-xl sm:text-2xl text-gray-700 mb-10 leading-relaxed max-w-3xl mx-auto">
+        I help small businesses, charities, and professional firms figure out AI—what to use, how to use it safely, and how to actually get value from it.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a
+          href="/ai"
+          class="px-8 py-4 bg-gold text-navy rounded-md text-lg font-semibold hover:bg-yellow-500 transition-colors shadow-md"
+        >
+          AI Strategy Services
+        </a>
+        <a
+          href="/indigenous"
+          class="text-lg font-medium text-gold hover:text-yellow-600 transition-colors flex items-center"
+        >
+          Indigenous Law
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Logos -->
+  <MediaLogos />
+
+  <!-- Service Cards Section -->
+  <section class="py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-8">
+        <ServiceCard
+          title="AI Strategy"
+          description="Helping leadership develop an AI strategy that fits their size, budget, and mission."
+          href="/ai"
+        />
+        <ServiceCard
+          title="Indigenous Law"
+          description="Negotiation, governance, and claims counsel for Indigenous communities and governments."
+          href="/indigenous"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Credentials Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-serif font-semibold text-navy mb-8 text-center">Background</h2>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div class="flex items-start">
+          <div class="flex-shrink-0 mt-1">
+            <svg class="h-5 w-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="ml-3 text-gray-700">Former Attorney General of Ontario</p>
+        </div>
+        <div class="flex items-start">
+          <div class="flex-shrink-0 mt-1">
+            <svg class="h-5 w-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="ml-3 text-gray-700">CEO, Legal Aid BC ($100M+ budget, 200+ staff)</p>
+        </div>
+        <div class="flex items-start">
+          <div class="flex-shrink-0 mt-1">
+            <svg class="h-5 w-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="ml-3 text-gray-700">Executive Director & General Counsel, Canadian Civil Liberties Association</p>
+        </div>
+        <div class="flex items-start">
+          <div class="flex-shrink-0 mt-1">
+            <svg class="h-5 w-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="ml-3 text-gray-700">Harvard Law (LL.M.), Osgoode Hall (J.D., 2nd in class)</p>
+        </div>
+        <div class="flex items-start">
+          <div class="flex-shrink-0 mt-1">
+            <svg class="h-5 w-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="ml-3 text-gray-700">Supreme Court of Canada clerk</p>
+        </div>
+        <div class="flex items-start">
+          <div class="flex-shrink-0 mt-1">
+            <svg class="h-5 w-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="ml-3 text-gray-700">Top 25 Most Influential in Canada (Canadian Lawyer)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
