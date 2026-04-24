@@ -2,7 +2,7 @@
 
 Lawyer. Build code and briefs.
 
-I practised law from the Attorney General's office to the bail-court duty roster. Today I practise municipal and Indigenous law at [Fogler Rubinoff](https://www.foglers.com), consult on governance and legaltech through Humilitas, and build AI-powered legal tools at [justack.ai](https://justack.ai) — because too many people navigate the justice system alone.
+Founder, justack.ai - open source legal tools.
 
 ### Building now
 
